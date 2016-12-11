@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    system
+	    istatmenus
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -165,24 +165,36 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-5 h5{
 	line-height: 24px;
 }
-#bloc-7 h3{
-	font-size: 16px;
+#bloc-6 h5{
+	line-height: 24px;
+}
+#bloc-7 h5{
 	line-height: 24px;
 }
 #bloc-8 h5{
 	line-height: 24px;
 }
+#bloc-9 h5{
+	line-height: 24px;
+}
+#bloc-10 h5{
+	line-height: 24px;
+}
+#bloc-11 h5{
+	line-height: 24px;
+}
+#bloc-12 h5{
+	line-height: 24px;
+}
+#bloc-13 p{
+	font-size: 24.000000953674316px;
+}
+#bloc-16 h3{
+	font-size: 16px;
+	line-height: 24px;
+}
 #bloc-17 h5{
 	line-height: 24px;
-}
-#bloc-18 h5{
-	line-height: 24px;
-}
-#bloc-19 h5{
-	line-height: 24px;
-}
-#bloc-25 h1{
-	font-size: 64px;
 }
 #bloc-26 h5{
 	line-height: 24px;
@@ -193,10 +205,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-28 h5{
 	line-height: 24px;
 }
-#bloc-29 h5{
-	line-height: 24px;
-}
-#bloc-31 h5{
+#bloc-34 h5{
 	line-height: 24px;
 }
 
@@ -620,19 +629,43 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 h2{
 	font-size:26px;
+	font-family:"Josefin Sans";
 }
 h1{
-	font-family:"Ubuntu";
+	font-family:"Droid Sans";
 	font-size:36px;
 }
 h3{
-	font-size:22px;
+	font-family:"Lato";
+	font-weight:100;
+	font-size:30px;
 }
 .hero-bloc-text{
 	font-size:55px;
 }
 .hero-bloc-text-sub{
 	font-size:36px;
+}
+h4{
+	font-family:"Lato";
+	font-weight:700;
+}
+h5{
+	font-family:"Montserrat";
+	font-size:30px;
+}
+h6{
+	font-size:20px;
+	font-family:"Oswald";
+	font-weight:600;
+}
+p{
+	font-family:"PT Sans Narrow";
+	font-weight:700;
+}
+label{
+	font-family:"Roboto";
+	font-size:20px;
 }
 
 /* = Colour
