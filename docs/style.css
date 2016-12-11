@@ -156,9 +156,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-2 h5{
 	line-height: 24px;
 }
-#bloc-3 h5{
-	line-height: 24px;
-}
 #bloc-4 h5{
 	line-height: 24px;
 }
@@ -493,6 +490,7 @@ iframe{
 
 h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Ubuntu";
+	font-weight:700;
 }
 .container{
 	max-width:1170px;
@@ -633,6 +631,18 @@ h3{
 }
 .hero-bloc-text-sub{
 	font-size:36px;
+}
+label{
+	font-family:"Ubuntu";
+}
+p{
+	font-family:"Ubuntu";
+	font-size:16px;
+	font-weight:700;
+}
+a{
+	font-family:"Ubuntu";
+	font-weight:600;
 }
 
 /* = Colour
@@ -872,7 +882,15 @@ h3{
 	.hero-text-vc, .mobile .hero-text-vc{
 	margin-top:10%;
 }
- 
+ div[class^="col-"], div[class*=" col-"]{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.full-width-bloc div[class^="col-"], .full-width-bloc div[class*=" col-"]{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
 @media (max-width: 420px){
 	.blocs-mobile-signup-text{
 	text-align:center;
