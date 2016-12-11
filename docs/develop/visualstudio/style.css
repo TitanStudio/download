@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    docs
+	    visualstudio
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -44,9 +44,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 .bloc-md{
 	padding:50px;
-}
-.bloc-sm{
-	padding:20px 50px;
 }
 
 
@@ -141,6 +138,9 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .voffset{
 	margin-top:30px;
 }
+.voffset-md{
+	margin-top:50px;
+}
 
 /* Bloc text custom styling */
 
@@ -153,25 +153,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-3 h5{
 	line-height: 24px;
 }
-#bloc-4 h5{
-	line-height: 24px;
-}
-#bloc-7 h5{
-	line-height: 24px;
-}
-#bloc-8 h5{
-	line-height: 24px;
-}
-#bloc-11 h5{
-	line-height: 24px;
-}
-#bloc-14 h5{
-	line-height: 24px;
-}
-#bloc-17 h5{
-	line-height: 24px;
-}
-#bloc-19 h5{
+#bloc-5 h5{
 	line-height: 24px;
 }
 
@@ -312,25 +294,9 @@ nav .caret{
 .mg-clear{
 	margin:0;
 }
-.mg-sm{
-	margin-top:10px;
-	margin-bottom:5px;
-}
 .mg-md{
 	margin-top:10px;
 	margin-bottom:20px;
-}
-img.mg-sm,img.mg-md,img.mg-lg{
-	margin-top: 0;
-}
-img.mg-sm{
-	margin-bottom:10px;
-}
-img.mg-md{
-	margin-bottom:30px;
-}
-img.mg-lg{
-	margin-bottom:50px;
 }
 
 /* = Buttons
@@ -364,29 +330,9 @@ button{
 	font-size:60px!important;
 }
 
-/*  Rounded Image */
-.img-rd{
-	border-radius:6px;
-}
-.img-rd-md{
-	border-radius:20px;
-}
-.img-rd-lg{
-	border-radius:34px;
-}
 
 
 
-/* = Panels
--------------------------------------------------------------- */
-.panel{
-	border:0;
-	box-shadow: 0 0 2px rgba(0,0,0,.4);
-}
-.panel-heading, .panel-footer{
-	background-color: inherit;
-	border-color: rgba(0,0,0,.1)!important;
-}
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
 	border-radius:0;
 }
@@ -422,6 +368,43 @@ button{
 
 iframe{
 	border:0;
+}
+/* = Carousel
+-------------------------------------------------------------- */
+
+.carousel{
+	display:inline-block;
+	vertical-align:bottom;
+}
+.full-width-bloc .carousel{
+	width:100%;
+}
+.carousel .item img{
+	margin-right:auto;
+	margin-left:auto;
+}
+.carousel-control span{
+	position: absolute;
+	top: 50%;
+	z-index: 5;
+	display: inline-block;
+}
+.carousel-control{
+	color:#FFF!important;
+	text-shadow: none;
+}
+.carousel-indicators li{
+	margin: 0 4px;
+}
+.carousel-indicators .active{
+	margin: 0 4px -1px;
+}
+.carousel-control.left span{
+	margin-left:-15px;
+}
+
+.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
+	background-image: none;
 }
 
 
@@ -600,27 +583,6 @@ h3{
 .bgc-white{
 	background-color:#ffffff;
 }
-.bgc-lavender-blush{
-	background-color:#FFF0FA;
-}
-.bgc-cosmic-latte{
-	background-color:#FAFAE6;
-}
-.bgc-glitter{
-	background-color:#E6EFFA;
-}
-.bgc-pale-pink{
-	background-color:#FFDCDC;
-}
-.bgc-honeydew{
-	background-color:#F0FAF0;
-}
-.bgc-linen{
-	background-color:#FAF0E6;
-}
-.bgc-bubbles{
-	background-color:#E6F5FA;
-}
 .bgc-dodger-blue{
 	background-color:#2CA3FF;
 }
@@ -638,14 +600,6 @@ h3{
 .btn-dodger-blue:hover{
 	background:#2382cc;
 	color:#FFFFFF!important;
-}
-/* Link colour styles */
-
-.ltc-dodger-blue{
-	color:#2CA3FF!important;
-}
-.ltc-dodger-blue:hover{
-	color:#2382cc!important;
 }
 
 /* Bloc image backgrounds */

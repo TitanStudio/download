@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
 <loc>Titan Studio</loc>
-<lastmod>2016-12-11</lastmod>
+<lastmod>2016-12-12</lastmod>
 <changefreq>Weekly</changefreq>
 <priority>1.0</priority>
 </url>
 <url>
-<loc>titan studio/usage.html</loc>
-<lastmod>2016-12-11</lastmod>
-<changefreq>Weekly</changefreq>
-<priority>0.5</priority>
-</url>
-<url>
 <loc>titan studio/system.html</loc>
-<lastmod>2016-12-11</lastmod>
+<lastmod>2016-12-12</lastmod>
 <changefreq>Weekly</changefreq>
 <priority>0.5</priority>
 </url>
 <url>
-<loc>titan studio/istatmenus.html</loc>
-<lastmod>2016-12-11</lastmod>
+<loc>titan studio/network.html</loc>
+<lastmod>2016-12-12</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>titan studio/develop.html</loc>
+<lastmod>2016-12-12</lastmod>
+<changefreq>Weekly</changefreq>
+<priority>0.5</priority>
+</url>
+<url>
+<loc>titan studio/design.html</loc>
+<lastmod>2016-12-12</lastmod>
 <changefreq>Weekly</changefreq>
 <priority>0.5</priority>
 </url>
