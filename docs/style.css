@@ -171,7 +171,19 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-17 h5{
 	line-height: 24px;
 }
-#bloc-19 h5{
+#bloc-20 h5{
+	line-height: 24px;
+}
+#bloc-23 h5{
+	line-height: 24px;
+}
+#bloc-26 h5{
+	line-height: 24px;
+}
+#bloc-29 h5{
+	line-height: 24px;
+}
+#bloc-31 h5{
 	line-height: 24px;
 }
 
@@ -618,8 +630,14 @@ h3{
 .bgc-linen{
 	background-color:#FAF0E6;
 }
-.bgc-bubbles{
-	background-color:#E6F5FA;
+.bgc-light-cyan{
+	background-color:#E1F8FA;
+}
+.bgc-isabelline{
+	background-color:#EBEBEB;
+}
+.bgc-eggshell{
+	background-color:#F0E6DC;
 }
 .bgc-dodger-blue{
 	background-color:#2CA3FF;
