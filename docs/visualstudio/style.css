@@ -153,7 +153,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-3 h5{
 	line-height: 24px;
 }
-#bloc-5 h5{
+#bloc-4 h5{
+	line-height: 24px;
+}
+#bloc-6 h5{
 	line-height: 24px;
 }
 
@@ -318,6 +321,9 @@ button{
 	outline: none!important;
 }
 
+.icon-spacer{
+	margin-right:5px;
+}
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
@@ -333,6 +339,16 @@ button{
 
 
 
+/* = Panels
+-------------------------------------------------------------- */
+.panel{
+	border:0;
+	box-shadow: 0 0 2px rgba(0,0,0,.4);
+}
+.panel-heading, .panel-footer{
+	background-color: inherit;
+	border-color: rgba(0,0,0,.1)!important;
+}
 .panel-sq, .panel-sq .panel-heading, .panel-sq .panel-footer{
 	border-radius:0;
 }
@@ -546,6 +562,9 @@ h3{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-linen{
+	background-color:#FAF0E6;
+}
 .bgc-dodger-blue{
 	background-color:#2CA3FF;
 }
@@ -563,6 +582,28 @@ h3{
 .btn-dodger-blue:hover{
 	background:#2382cc;
 	color:#FFFFFF!important;
+}
+.btn-liver{
+	background:#505050;
+	color:#FFFFFF!important;
+}
+.btn-liver:hover{
+	background:#404040;
+	color:#FFFFFF!important;
+}
+/* Link colour styles */
+
+.ltc-dodger-blue{
+	color:#2CA3FF!important;
+}
+.ltc-dodger-blue:hover{
+	color:#2382cc!important;
+}
+/* Icon colour styles */
+
+.icon-white{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
 }
 
 /* Bloc image backgrounds */
