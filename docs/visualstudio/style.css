@@ -369,43 +369,6 @@ button{
 iframe{
 	border:0;
 }
-/* = Carousel
--------------------------------------------------------------- */
-
-.carousel{
-	display:inline-block;
-	vertical-align:bottom;
-}
-.full-width-bloc .carousel{
-	width:100%;
-}
-.carousel .item img{
-	margin-right:auto;
-	margin-left:auto;
-}
-.carousel-control span{
-	position: absolute;
-	top: 50%;
-	z-index: 5;
-	display: inline-block;
-}
-.carousel-control{
-	color:#FFF!important;
-	text-shadow: none;
-}
-.carousel-indicators li{
-	margin: 0 4px;
-}
-.carousel-indicators .active{
-	margin: 0 4px -1px;
-}
-.carousel-control.left span{
-	margin-left:-15px;
-}
-
-.no-shadows .carousel-control.left, .no-shadows .carousel-control.right{
-	background-image: none;
-}
 
 
 /* ScrollToTop button */
