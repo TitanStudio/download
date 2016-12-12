@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    visualstudio
+	    adobe
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -583,12 +583,12 @@ h3{
 	background:#2382cc;
 	color:#FFFFFF!important;
 }
-.btn-gray-htmlcss-gray{
-	background:#787878;
+.btn-mantis{
+	background:#7CC353;
 	color:#FFFFFF!important;
 }
-.btn-gray-htmlcss-gray:hover{
-	background:#606060;
+.btn-mantis:hover{
+	background:#639c42;
 	color:#FFFFFF!important;
 }
 /* Link colour styles */
