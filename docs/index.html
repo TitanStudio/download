@@ -14,7 +14,9 @@
 	<script src="./js/jquery-2.1.0.js"></script>
 	<script src="./js/bootstrap.js"></script>
 	<script src="./js/blocs.js"></script>
-    <title>Download Center</title>
+	<script src="./js/jqBootstrapValidation.js"></script>
+	<script src="./js/formHandler.js"></script>
+    <title>Applications</title>
 
     
 <!-- Google Analytics -->
@@ -73,19 +75,16 @@
 <!-- bloc-0 END -->
 
 <!-- bloc-1 -->
-<div class="bloc b-parallax bgc-white l-bloc animated vanishIn" id="bloc-1">
-	<div class="container bloc-xl">
+<div class="bloc bgc-white l-bloc" id="bloc-1">
+	<div class="container bloc-lg b-divider">
 		<div class="row">
 			<div class="col-sm-12">
-				<h1 class="text-center  mg-clear tc-dodger-blue">
-					Download Center
+				<h1 class="text-center  tc-dodger-blue mg-md">
+					Applications
 				</h1>
-				<div class="divider-h animDelay1">
-					<span class="divider"></span>
-				</div>
-				<h3 class=" mg-clear text-center">
+				<h5 class=" text-center mg-md">
 					Titan Studio Download Center
-				</h3>
+				</h5>
 			</div>
 		</div>
 	</div>
@@ -94,15 +93,19 @@
 
 <!-- bloc-2 -->
 <div class="bloc b-parallax bgc-white l-bloc" id="bloc-2">
-	<div class="container bloc-md">
+	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<h2 class="mg-md tc-dodger-blue">
-					心愿单
-				</h2>
-				<h5 class="mg-md  text-justify">
-					有什么特别优秀的软件没有收录？请在这里告诉我：<a class="ltc-dodger-blue" href="https://github.com/TitanStudio/download/issues/2" target="_blank">@心愿单</a>。
-				</h5>
+				<div class="row voffset">
+					<div class="col-sm-12">
+						<h2 class="mg-md tc-dodger-blue">
+							心愿单
+						</h2>
+						<h5 class="mg-md  text-justify">
+							有什么特别优秀的软件没有收录？请在这里告诉我：<a class="ltc-dodger-blue" href="https://github.com/TitanStudio/download/issues/2" target="_blank">@心愿单</a>。
+						</h5>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -111,14 +114,14 @@
 
 <!-- bloc-3 -->
 <div class="bloc b-parallax bgc-white l-bloc" id="bloc-3">
-	<div class="container bloc-md">
+	<div class="container bloc-sm">
 		<div class="row voffset">
 			<div class="col-sm-12">
 				<h2 class="mg-md tc-dodger-blue">
 					关于本站
 				</h2>
-				<h5 class="mg-md  text-justify">
-					本站并不以盈利为目的，所有软件均来源于网络，旨在分享Windows和macOS平台的优秀应用，并为大家带来更好的下载体验。 如果本站内容对您的权利造成了影响，请发邮件至ayan.study@outlook.com。我们会在第一时间将涉及版权的内容进行删除。<br>
+				<h5 class="mg-md  text-justify ">
+					本站并不以盈利为目的，所有软件均来源于网络，旨在分享Windows和macOS平台的优秀应用，并为大家带来更好的下载体验。 <br>如果本站内容对您的权利造成了影响，请发邮件至ayan.study@outlook.com。我们会在第一时间将涉及版权的内容进行删除。<br>
 				</h5>
 			</div>
 		</div>
@@ -128,8 +131,8 @@
 
 <!-- bloc-4 -->
 <div class="bloc b-parallax bgc-white l-bloc" id="bloc-4">
-	<div class="container bloc-md">
-		<div class="row">
+	<div class="container bloc-sm">
+		<div class="row voffset">
 			<div class="col-sm-12">
 				<h2 class="mg-md tc-dodger-blue">
 					反馈
@@ -160,51 +163,79 @@
 
 
 <!-- Footer - bloc-31 -->
-<div class="bloc none bgc-dodger-blue d-bloc" id="bloc-31">
+<div class="bloc bgc-dodger-blue d-bloc" id="bloc-31">
 	<div class="container bloc-md">
 		<div class="row">
-			<div class="col-xs-12 col-md-8 col-md-offset-2">
-				<div class="col-sm-3">
-					<div class="text-center">
-						<a class="social-lg" href="https://github.com/TitanStudio" target="_blank"><span class="fa fa-github icon-lg animated jello-hvr"></span></a>
-						<h4 class="mg-md text-center">
-							GitHub
-						</h4>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
+			<div class="col-sm-2">
+				<h4 class=" text-justify tc-white mg-sm">
+					Projects
+				</h4>
+				<h5 class="mg-md  text-justify">
+					ATKit for iOS <br>NEXUS for Windows<br>
+				</h5>
+			</div>
+			<div class="col-sm-2">
+				<h4 class=" text-justify tc-white mg-sm">
+					Applications
+				</h4>
+				<h5 class="mg-md  text-justify">
+					system <br>network <br>develop <br>design <br>office <br>life <br>media <br>games
+				</h5>
+			</div>
+			<div class="col-sm-2">
+				<h4 class=" text-justify tc-white mg-sm">
+					Team
+				</h4>
+				<h5 class="mg-md  text-justify">
+					about <br>forum <br>join us
+				</h5>
+			</div>
+			<div class="col-sm-6">
+				<div class="row">
+					<div class="col-sm-3">
 						<div class="text-center">
-							<a class="social-lg" href="http://www.jianshu.com/users/8a50e44f862a/latest_articles" target="_blank"><span class="fa fa-rss icon-lg animated jello-hvr"></span></a>
-							<h4 class="mg-md text-center">
+							<a class="social-lg" href="https://github.com/TitanStudio" target="_blank"><span class="fa fa-github animated jello-hvr icon-md"></span></a>
+							<h5 class="mg-md text-center">
+								GitHub
+							</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<a class="social-lg" href="http://www.jianshu.com/users/8a50e44f862a/latest_articles" target="_blank"><span class="fa fa-rss animated jello-hvr icon-md"></span></a>
+							<h5 class="mg-md text-center">
 								JianShu
-							</h4>
+							</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<span class="fa fa-linkedin-square animated jello-hvr icon-md"></span>
+							<h5 class="mg-md text-center">
+								Linked In
+							</h5>
+						</div>
+					</div>
+					<div class="col-sm-3">
+						<div class="text-center">
+							<span class="fa fa-weibo animated jello-hvr icon-md"></span>
+							<h5 class="mg-md text-center">
+								Weibo
+							</h5>
 						</div>
 					</div>
 				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<span class="fa fa-linkedin-square icon-lg animated jello-hvr"></span>
-						<h4 class="mg-md text-center">
-							Linked In
-						</h4>
-					</div>
-				</div>
-				<div class="col-sm-3">
-					<div class="text-center">
-						<span class="fa fa-weibo icon-lg animated jello-hvr"></span>
-						<h4 class="mg-md text-center">
-							Weibo
-						</h4>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-12">
-				<h5 class="mg-md text-center ">
-					声明：本站并不以盈利为目的，所有软件均来源于网络，旨在分享Windows和macOS平台的优秀应用，并为大家带来更好的下载体验。 <br>如果本站内容对您的权利造成了影响，请发邮件至ayan.study@outlook.com。我们会在第一时间将涉及版权的内容进行删除。<br>
-				</h5>
+				<form id="form_1" novalidate>
+					<div class="form-group">
+						<label>
+							Get Titan Studio product updates
+						</label>
+						<input id="email" class="form-control" type="email" required placeholder="Enter your email" />
+					</div> 
+					<button class="bloc-button btn btn-d btn-block" type="submit">
+						Subscribe
+					</button>
+				</form>
 				<h5 class="mg-md text-center ">
 					<strong>Copyright © 2016 Titan Studio. All rights reserved.</strong>
 				</h5>

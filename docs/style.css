@@ -39,8 +39,8 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 
 /* Sizes */
 
-.bloc-xl{
-	padding:150px 50px;
+.bloc-lg{
+	padding:100px 50px;
 }
 .bloc-md{
 	padding:50px;
@@ -141,11 +141,17 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 .voffset{
 	margin-top:30px;
 }
+/* Dividers */
+
+.b-divider{
+	border-top:1px solid rgba(0,0,0,.1);
+	border-bottom:1px solid rgba(0,0,0,.1);
+}
 
 /* Bloc text custom styling */
 
-#bloc-1 h1{
-	font-size: 64px;
+#bloc-1 h5{
+	line-height: 24px;
 }
 #bloc-2 h5{
 	line-height: 24px;
@@ -182,6 +188,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 }
 #bloc-29 h5{
 	line-height: 24px;
+}
+#bloc-31 h4{
+	line-height: 28px;
+}
+#bloc-31 h5{
+	line-height: 22px;
 }
 #bloc-31 h5{
 	line-height: 24px;
@@ -372,8 +384,8 @@ button{
 
 /* = Icons
 -------------------------------------------------------------- */
-.icon-lg{
-	font-size:60px!important;
+.icon-md{
+	font-size:30px!important;
 }
 
 /*  Rounded Image */
@@ -412,23 +424,14 @@ button{
 	border-radius:0 0 29px 29px;
 }
 
-/* = Dividers
--------------------------------------------------------------- */
-.divider-h{
-	padding:20px 0;
-}
-.divider-h span{
-	display: block;
-	border-top:1px solid transparent;
-}
-.divider-half{
-	width: 50%;
-	margin: 0 auto;
-}
-.dropdown-menu .divider-h,.dropdown-menu .divider-half{
-	padding:0;
-}
 
+/* = Forms
+-------------------------------------------------------------- */
+
+.form-control{
+	border-color:rgba(0,0,0,.1);
+	box-shadow:none;
+}
 
 /* iFrame */
 
@@ -646,6 +649,9 @@ h3{
 
 .tc-dodger-blue{
 	color:#2CA3FF!important;
+}
+.tc-white{
+	color:#ffffff!important;
 }
 /* Button colour styles */
 
