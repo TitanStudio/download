@@ -168,34 +168,37 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-8 h5{
 	line-height: 24px;
 }
-#bloc-11 h5{
+#bloc-9 h5{
 	line-height: 24px;
 }
-#bloc-14 h5{
+#bloc-12 h5{
 	line-height: 24px;
 }
-#bloc-17 h5{
+#bloc-15 h5{
 	line-height: 24px;
 }
-#bloc-20 h5{
+#bloc-18 h5{
 	line-height: 24px;
 }
-#bloc-23 h5{
+#bloc-21 h5{
 	line-height: 24px;
 }
-#bloc-26 h5{
+#bloc-24 h5{
 	line-height: 24px;
 }
-#bloc-29 h5{
+#bloc-27 h5{
 	line-height: 24px;
 }
-#bloc-31 h4{
+#bloc-30 h5{
+	line-height: 24px;
+}
+#bloc-32 h4{
 	line-height: 28px;
 }
-#bloc-31 h5{
+#bloc-32 h5{
 	line-height: 22px;
 }
-#bloc-31 h5{
+#bloc-32 h5{
 	line-height: 24px;
 }
 
@@ -376,6 +379,9 @@ button{
 	outline: none!important;
 }
 
+.icon-spacer{
+	margin-right:5px;
+}
 .btn .caret{
 	margin:0 0 0 5px}.dropdown a .caret{
 	margin:0 0 0 5px}.btn-dropdown .dropdown-menu .dropdown{
@@ -386,6 +392,9 @@ button{
 -------------------------------------------------------------- */
 .icon-md{
 	font-size:30px!important;
+}
+.icon-lg{
+	font-size:60px!important;
 }
 
 /*  Rounded Image */
@@ -670,6 +679,20 @@ h3{
 }
 .ltc-dodger-blue:hover{
 	color:#2382cc!important;
+}
+/* Icon colour styles */
+
+.icon-white{
+	color:#ffffff!important;
+	border-color:#ffffff!important;
+}
+.icon-dodger-blue{
+	color:#2CA3FF!important;
+	border-color:#2CA3FF!important;
+}
+.icon-gray-htmlcss-gray{
+	color:#787878!important;
+	border-color:#787878!important;
 }
 
 /* Bloc image backgrounds */
