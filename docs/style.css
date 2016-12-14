@@ -379,6 +379,18 @@ button{
 	outline: none!important;
 }
 
+.a-btn{
+	padding: 6px 10px 6px 0;
+	line-height: 1.42857143;
+	display:inline-block;
+}
+.text-center .a-btn{
+	padding: 6px 0;
+}
+.a-block{
+	width:100%;
+	text-align: left;
+}
 .icon-spacer{
 	margin-right:5px;
 }
@@ -624,14 +636,14 @@ h3{
 .bgc-white{
 	background-color:#ffffff;
 }
+.bgc-glitter{
+	background-color:#E6EFFA;
+}
 .bgc-lavender-blush{
 	background-color:#FFF0FA;
 }
 .bgc-cosmic-latte{
 	background-color:#FAFAE6;
-}
-.bgc-glitter{
-	background-color:#E6EFFA;
 }
 .bgc-pale-pink{
 	background-color:#FFDCDC;
@@ -641,6 +653,9 @@ h3{
 }
 .bgc-linen{
 	background-color:#FAF0E6;
+}
+.bgc-white-smoke{
+	background-color:#F5F5F5;
 }
 .bgc-light-cyan{
 	background-color:#E1F8FA;
@@ -672,6 +687,22 @@ h3{
 	background:#2382cc;
 	color:#FFFFFF!important;
 }
+.btn-mantis{
+	background:#7CC353;
+	color:#FFFFFF!important;
+}
+.btn-mantis:hover{
+	background:#639c42;
+	color:#FFFFFF!important;
+}
+.btn-carmine-pink{
+	background:#F05153;
+	color:#FFFFFF!important;
+}
+.btn-carmine-pink:hover{
+	background:#c04142;
+	color:#FFFFFF!important;
+}
 /* Link colour styles */
 
 .ltc-dodger-blue{
@@ -686,13 +717,13 @@ h3{
 	color:#ffffff!important;
 	border-color:#ffffff!important;
 }
-.icon-dodger-blue{
-	color:#2CA3FF!important;
-	border-color:#2CA3FF!important;
-}
 .icon-gray-htmlcss-gray{
 	color:#787878!important;
 	border-color:#787878!important;
+}
+.icon-dodger-blue{
+	color:#2CA3FF!important;
+	border-color:#2CA3FF!important;
 }
 
 /* Bloc image backgrounds */
