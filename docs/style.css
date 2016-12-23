@@ -177,6 +177,12 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-15 h5{
 	line-height: 24px;
 }
+#bloc-16 h5{
+	line-height: 24px;
+}
+#bloc-17 h5{
+	line-height: 24px;
+}
 #bloc-18 h5{
 	line-height: 24px;
 }
@@ -186,19 +192,28 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-24 h5{
 	line-height: 24px;
 }
-#bloc-27 h5{
+#bloc-25 h5{
 	line-height: 24px;
 }
-#bloc-30 h5{
+#bloc-26 h5{
 	line-height: 24px;
 }
-#bloc-32 h4{
+#bloc-29 h5{
+	line-height: 24px;
+}
+#bloc-32 h5{
+	line-height: 24px;
+}
+#bloc-35 h5{
+	line-height: 24px;
+}
+#bloc-37 h4{
 	line-height: 28px;
 }
-#bloc-32 h5{
+#bloc-37 h5{
 	line-height: 22px;
 }
-#bloc-32 h5{
+#bloc-37 h5{
 	line-height: 24px;
 }
 
@@ -646,8 +661,8 @@ h3{
 .bgc-cosmic-latte{
 	background-color:#FAFAE6;
 }
-.bgc-pale-pink{
-	background-color:#FFDCDC;
+.bgc-misty-rose{
+	background-color:#FFE6E6;
 }
 .bgc-honeydew{
 	background-color:#F0FAF0;
