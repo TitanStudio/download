@@ -171,19 +171,25 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-9 h5{
 	line-height: 24px;
 }
-#bloc-12 h5{
+#bloc-10 h5{
 	line-height: 24px;
 }
-#bloc-15 h5{
+#bloc-11 h5{
 	line-height: 24px;
 }
-#bloc-16 h5{
+#bloc-14 h5{
 	line-height: 24px;
 }
 #bloc-17 h5{
 	line-height: 24px;
 }
 #bloc-18 h5{
+	line-height: 24px;
+}
+#bloc-19 h5{
+	line-height: 24px;
+}
+#bloc-20 h5{
 	line-height: 24px;
 }
 #bloc-21 h5{
@@ -201,19 +207,28 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-29 h5{
 	line-height: 24px;
 }
-#bloc-32 h5{
+#bloc-30 h5{
 	line-height: 24px;
 }
-#bloc-35 h5{
+#bloc-31 h5{
 	line-height: 24px;
 }
-#bloc-37 h4{
+#bloc-34 h5{
+	line-height: 24px;
+}
+#bloc-37 h5{
+	line-height: 24px;
+}
+#bloc-40 h5{
+	line-height: 24px;
+}
+#bloc-42 h4{
 	line-height: 28px;
 }
-#bloc-37 h5{
+#bloc-42 h5{
 	line-height: 22px;
 }
-#bloc-37 h5{
+#bloc-42 h5{
 	line-height: 24px;
 }
 
@@ -658,20 +673,20 @@ h3{
 .bgc-lavender-blush{
 	background-color:#FFF0FA;
 }
-.bgc-cosmic-latte{
-	background-color:#FAFAE6;
+.bgc-white-smoke{
+	background-color:#F5F5F5;
 }
 .bgc-misty-rose{
 	background-color:#FFE6E6;
 }
-.bgc-honeydew{
-	background-color:#F0FAF0;
-}
 .bgc-linen{
 	background-color:#FAF0E6;
 }
-.bgc-white-smoke{
-	background-color:#F5F5F5;
+.bgc-cosmic-latte{
+	background-color:#FAFAE6;
+}
+.bgc-honeydew{
+	background-color:#F0FAF0;
 }
 .bgc-light-cyan{
 	background-color:#E1F8FA;
