@@ -153,16 +153,13 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-1 h5{
 	line-height: 24px;
 }
-#bloc-2 h5{
-	line-height: 24px;
-}
 #bloc-3 h5{
 	line-height: 24px;
 }
 #bloc-4 h5{
 	line-height: 24px;
 }
-#bloc-7 h5{
+#bloc-5 h5{
 	line-height: 24px;
 }
 #bloc-8 h5{
@@ -177,10 +174,10 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-11 h5{
 	line-height: 24px;
 }
-#bloc-14 h5{
+#bloc-12 h5{
 	line-height: 24px;
 }
-#bloc-17 h5{
+#bloc-15 h5{
 	line-height: 24px;
 }
 #bloc-18 h5{
@@ -195,7 +192,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-21 h5{
 	line-height: 24px;
 }
-#bloc-24 h5{
+#bloc-22 h5{
 	line-height: 24px;
 }
 #bloc-25 h5{
@@ -204,7 +201,7 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-26 h5{
 	line-height: 24px;
 }
-#bloc-29 h5{
+#bloc-27 h5{
 	line-height: 24px;
 }
 #bloc-30 h5{
@@ -213,22 +210,28 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 #bloc-31 h5{
 	line-height: 24px;
 }
-#bloc-34 h5{
+#bloc-32 h5{
 	line-height: 24px;
 }
-#bloc-37 h5{
+#bloc-33 h5{
 	line-height: 24px;
 }
-#bloc-40 h5{
+#bloc-36 h5{
 	line-height: 24px;
 }
-#bloc-42 h4{
+#bloc-39 h5{
+	line-height: 24px;
+}
+#bloc-42 h5{
+	line-height: 24px;
+}
+#bloc-44 h4{
 	line-height: 28px;
 }
-#bloc-42 h5{
+#bloc-44 h5{
 	line-height: 22px;
 }
-#bloc-42 h5{
+#bloc-44 h5{
 	line-height: 24px;
 }
 
@@ -710,6 +713,14 @@ h3{
 }
 /* Button colour styles */
 
+.btn-gray-htmlcss-gray{
+	background:#787878;
+	color:#FFFFFF!important;
+}
+.btn-gray-htmlcss-gray:hover{
+	background:#606060;
+	color:#FFFFFF!important;
+}
 .btn-dodger-blue{
 	background:#2CA3FF;
 	color:#FFFFFF!important;
