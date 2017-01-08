@@ -1,5 +1,5 @@
 /*-----------------------------------------------------------------------------------
-	    docs
+	    download
         Built with Blocs
 -----------------------------------------------------------------------------------*/
 
@@ -301,8 +301,6 @@ a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safar
 		transform:translate(0, -50%);
 		-webkit-transform:translateY(-50%);
 	}
-.navbar .nav {
-		max-width:70%}
 	.nav > li .dropdown-menu a,.nav > li .dropdown-menu a:hover{
 		color:#484848;
 	}
@@ -789,6 +787,15 @@ h3{
         padding-right: 0;  
     }
 }
+@media (max-width: 992px) and (min-width: 768px)
+{
+    .navbar .nav{
+		max-width:80%
+    }
+	.nav-center.navbar .nav{
+		max-width:100%}
+    }
+}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {.b-parallax{background-attachment:scroll;}}
 @media (max-width: 768px)
 {
@@ -947,7 +954,8 @@ h3{
 	.hero-text-vc, .mobile .hero-text-vc{
 	margin-top:10%;
 }
- 
+ }
+
 @media (max-width: 420px){
 	.blocs-mobile-signup-text{
 	text-align:center;
@@ -967,4 +975,5 @@ h3{
 .hero-text-vc{
 	margin-top:0px;
 }
- 
+ }
+
