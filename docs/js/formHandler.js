@@ -1,18 +1,15 @@
 $(function()
-{
-	var successMsg = "Your message has been sent."; // Message shown on success.
-	var failMsg = "Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"; // Message shown on fail.
-	
+{	
 	$("input,textarea").jqBootstrapValidation(
     {
      	preventSubmit: true,
      	submitSuccess: function($form, event)
-	 	{
+	 	{			
 			if(!$form.attr('action')) // Check form doesnt have action attribute
 			{
 				event.preventDefault(); // prevent default submit behaviour
 			
-				var processorFile = "./includes/"+$form.attr('id')+".php";
+				var processorFile = getProcessorPath($form);
 				var formData = {};
 
 				$form.find("input, textarea, option:selected").each(function(e) // Loop over form objects build data object
@@ -43,11 +40,11 @@ $(function()
 		    		cache: false,
 		    		success: function() // Success
 		 			{  
-						$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+successMsg+"</strong></div></div>");		
+						$form.append("<div id='form-alert'><div class='alert alert-success'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('success-msg')+"</strong></div></div>");		
 		 	   		},
 			   		error: function() // Fail
 			   		{
-						$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+failMsg+"</strong></div></div>");	
+						$form.append("<div id='form-alert'><div class='alert alert-danger'><button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;</button><strong>"+$form.attr('fail-msg')+"</strong></div></div>");	
 			   		},
 					complete: function() // Clear
 					{
@@ -61,4 +58,17 @@ $(function()
 			 return $(this).is(":visible");
          },
 	 });
+	 
+	 // Get Path to processor PHP file
+	 function getProcessorPath(form)
+	 {
+		var path = "./includes/"+form.attr('id')+".php";
+		
+		if(form.attr('template-path')) // Check For Template path
+		{
+			path = form.attr('template-path')+"/includes/"+form.attr('id')+".php";
+		}
+		
+	 	return path
+	 }
 });
